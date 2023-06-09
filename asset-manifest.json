@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/login-singup/static/css/main.d9043b66.css",
+    "main.js": "/login-singup/static/js/main.69cbbfea.js",
+    "static/media/homepage.jpg": "/login-singup/static/media/homepage.34c66a3705bb4b42e294.jpg",
+    "index.html": "/login-singup/index.html",
+    "main.d9043b66.css.map": "/login-singup/static/css/main.d9043b66.css.map",
+    "main.69cbbfea.js.map": "/login-singup/static/js/main.69cbbfea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9043b66.css",
+    "static/js/main.69cbbfea.js"
+  ]
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './App.css'
+import './styles.css';
 
 const Login = (props) => {
     const [email, setEmail] = useState('');
@@ -15,11 +15,11 @@ const Login = (props) => {
         <div className="auth-form-container">
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="user">Email</label>
-                <input  value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="Username" id="email" name="email" />
-                <label htmlFor="password">Password</label>
-                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
-                <button type="submit">Log In</button>
+                <label className="label-auth" htmlFor="user">Email</label>
+                <input  className="input-auth" value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="Username" id="email" name="email" />
+                <label className="label-auth" htmlFor="password">Password</label>
+                <input className="input-auth" value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+                <button className="button-auth" type="submit">Log In</button>
             </form>
             <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
         </div>

@@ -18,7 +18,7 @@ const Register = (props) => {
             <label className="label-auth" htmlFor="name">Full name</label>
             <input className="input-auth" value={name} name="name" onChange={(e) => setName(e.target.value)} id="name" placeholder="Full Name" />
             <label  className="label-auth" htmlFor="User">Email</label>
-            <input className="input-auth" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="User Name" id="email" name="email" />
+            <input className="input-auth" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email" id="email" name="email" />
             <label className="label-auth" htmlFor="password">Password</label>
             <input className="input-auth" value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
             <button className="button-auth" type="submit">Log In</button>

@@ -49,12 +49,22 @@
 }
 
 .button-auth {
+  width: 100px;
+  height: auto;
   border: none;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   cursor: pointer;
   color: #7439db;
+  text-align: center;
+  transition: 0.4s;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.button-auth:hover {
+  background: rgba(255, 255, 255, 0.767);
 }
 #email, #password, #name {
   color: black;

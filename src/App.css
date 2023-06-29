@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-weight: 700;
+    color:whitesmoke;
+   font-family: 'Roboto', sans-serif;
+}
+  .App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color:white;
+    background-image: url(../public/img/homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
